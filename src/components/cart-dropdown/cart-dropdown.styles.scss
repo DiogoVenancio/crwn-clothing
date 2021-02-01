@@ -11,7 +11,7 @@
     right: 60px;
     z-index: 5;
 
-    .card-items {
+    .cart-items {
         height: 240px;
         display: flex;
         flex-direction: column;
@@ -20,5 +20,15 @@
 
     button {
         margin-top: auto;
+    }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+        background-color: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 20px;
     }
 }
